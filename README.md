@@ -176,7 +176,8 @@ unzip Traded-Instrument-Pricing-App.zip
 
 cd Traded-Instrument-Pricing-App
 
-./mvnw spring-boot:run
+./mvnw spring-boot:run (linux)
+mvnw.cmd spring-boot:run (windows)
 ```
 The command starts the Spring Boot application which includes integration flows and REST services and Swagger docs and UI for API documentation.
 
