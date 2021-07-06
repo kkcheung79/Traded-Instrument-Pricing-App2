@@ -147,13 +147,13 @@ http://localhost:8080/swagger-ui/index.html#/traded-instrument-pricing-controlle
 
 ## Sequence Diagram
 ###Vendor create the traded instrument price HTTP flow
-![Post Pricing Sequence Diagram](diagram/postPrice_seq_diagram.png)
+![Post Pricing Sequence Diagram](diagram/postPrice_seq_diagram.PNG)
 
 ###Client get the traded instrument prices by vendor Id flow
-![GetByVendorID Sequence Diagram](diagram/getByVendorId_seq_diagram.png)
+![GetByVendorID Sequence Diagram](diagram/getByVendorId_seq_diagram.PNG)
 
 ###Client get the traded instrument prices by instrument code flow
-![GetByInstrumentCode Sequence Diagram](diagram/getByInstrumentCode_seq_diagram.png)
+![GetByInstrumentCode Sequence Diagram](diagram/getByInstrumentCode_seq_diagram.PNG)
 
 ## Vendor File Integration Flow
 This integration flow shows:
@@ -165,7 +165,7 @@ This integration flow shows:
 6. ask for pricing service layer to insertOrSave it
 7. store cache and persist in data store
 8. publish to topic for downstream app.
-![File Integration Flow](diagram/file_integration_flow.png)
+![File Integration Flow](diagram/file_integration_flow.PNG)
 
 ## How to run
 
@@ -225,5 +225,3 @@ so that we can scale them easily and independently
 
 ### BUSINESS
 1. API should provide rate exchange feature, for example, GBP -> USD
-"# Traded-Instrument-Pricing-App" 
-# Traded-Instrument-Pricing-App
